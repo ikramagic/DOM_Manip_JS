@@ -32,7 +32,12 @@ Comment l'obtenir : `document.getElementsByTagName('a')[2]`
 
 ### Question 4
 
+Combien d'éléments portent la classe compte-moi ? 
 
 #### Reponse 4
 
+Nombre d'éléments : 10
 <br>
+Comment l'obtenir : `document.getElementsByClassName('compte-moi')`
+
+### Question 5
