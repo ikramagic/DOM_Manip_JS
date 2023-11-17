@@ -5,11 +5,33 @@ function changeTitles() {
 
 changeTitles();
 
-function changeLogoName() {
+function changeCallToActions() {
     document.querySelector('.btn-primary').innerHTML = "OK je veux tester !";
     document.querySelector('.btn-primary').href = 'http://www.thehackingproject.org';
-    document.querySelector('.btn-secondary').innerHTML = "OK je veux tester !";
+    document.querySelector('.btn-secondary').innerHTML = "Non, merci ça ira";
     document.querySelector('.btn-secondary').href = 'http://www.pole-emploi.fr/accueil';
 }
 
+changeCallToActions();
+
+function changeLogoName() {
+    const logoTitle = document.querySelector('.navbar-brand');
+    logoTitle.textContent = "The THP Experience";
+
+    logoTitle.style.fontSize = "2em";
+}
+
 changeLogoName();
+
+function populateImages() {
+    // Sélectionne toutes les balises img à l'intérieur des cards
+    const cardImages = document.querySelectorAll('.card img');
+
+    const imagesArray = ["https://img.icons8.com/color/480/000000/html-5.png", "https://img.icons8.com/color/480/000000/css3.png", "https://img.icons8.com/color/480/000000/javascript.png", "https://img.icons8.com/color/480/000000/ruby-programming-language.png", "https://img.icons8.com/color/480/000000/bootstrap.png", "https://img.icons8.com/color/480/000000/github.png", "https://rubyonrails.org/assets/images/opengraph.png", "https://avatars2.githubusercontent.com/u/25484553?s=200&v=4", "https://img.icons8.com/color/480/000000/heroku.png"];
+
+    cardImages.forEach(function (image, index) {
+        image.src = imagesArray[index];
+    });
+}
+
+populateImages();
