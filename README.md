@@ -94,12 +94,9 @@ Comment l'obtenir : <br>
 Dans notre script, on peut aussi ajouter un .length pour obtenir le nombre d'élément dans la console, et .href pour obtenir un affichage direct du lien dans la console.
 <br>
 J'ai préféré ne pas l'ajouter pour une meilleure vue d'ensemble.
-
 <hr>
 
 ## Aperçu de l'exo 2 (1-5)
-
-<hr>
 
 <div align="center">
 <img src="WEBsite_domerde.png"alt="website-preview">
