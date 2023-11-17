@@ -72,11 +72,12 @@ La page contient un seul élément `<div>`. Celui-ci contient 2 éléments "unor
 
 #### Reponse
 
+<details>
 Comment l'obtenir : <br>
 - `document.querySelector("div ul:nth-child(2) li").textContent`
+</details>
 
 <hr>
-
 Dans notre script, on peut aussi ajouter un .length pour obtenir le nombre d'élément dans la console, et .href pour obtenir un affichage direct du lien dans la console.
 
 <br>
