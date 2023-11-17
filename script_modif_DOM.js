@@ -8,6 +8,8 @@ changeTitles();
 function changeLogoName() {
     document.querySelector('.btn-primary').innerHTML = "OK je veux tester !";
     document.querySelector('.btn-primary').href = 'http://www.thehackingproject.org';
+    document.querySelector('.btn-secondary').innerHTML = "OK je veux tester !";
+    document.querySelector('.btn-secondary').href = 'http://www.pole-emploi.fr/accueil';
 }
 
 changeLogoName();
