@@ -95,6 +95,14 @@ Dans notre script, on peut aussi ajouter un .length pour obtenir le nombre d'él
 <br>
 J'ai préféré ne pas l'ajouter pour une meilleure vue d'ensemble.
 
+
+## Aperçu de l'exo 2 (1-5)
+
+<div align="center">
+<img src="WEBsite_domerde.png"alt="website-preview">
+</div>
+
+<hr>
 <div align="center">
   <h1>Enjoy!</h1>
   <img src="https://iili.io/JnnsA8b.png" alt="dog-wink">
