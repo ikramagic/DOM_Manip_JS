@@ -35,3 +35,16 @@ function populateImages() {
 }
 
 populateImages();
+
+function deleteLastCards() {
+
+    const cards = document.querySelectorAll('.card');
+
+    for (let i = 1; i <= 3 && cards.length >= 3; i++) {
+        let lastCard = cards[cards.length - i];
+        lastCard.parentNode.removeChild(lastCard);
+    }
+}
+
+deleteLastCards();
+
