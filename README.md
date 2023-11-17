@@ -84,5 +84,5 @@ J'ai préféré ne pas l'ajouter pour une meilleure vue d'ensemble.
 
 <div align="center">
   <h1>Enjoy!</h1>
-  <img src="https://i.pinimg.com/736x/c6/2d/ec/c62deccf2d0f836f7b9581921b73c7a1.jpg" alt="Wink">
+  <img src="https://iili.io/JnnsA8b.png" alt="dog-wink">
 </div>
