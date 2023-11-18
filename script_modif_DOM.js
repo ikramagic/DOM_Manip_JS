@@ -59,9 +59,21 @@ function changeCardsText() {
 
     if (cards.length >= 3) {
         for (let i = 0; i < 3; i++) {
-            cards[i].querySelector('.card-text').textContent = newCardTexts[i];
+            cards[i].querySelector('.card-text').innerHTML = newCardTexts[i];
         }
     }
 }
 
 changeCardsText();
+
+function changeViewButtons() {
+    let viewButtons = document.querySelectorAll('.btn-group > .btn-outline-secondary:nth-child(1)');
+
+    viewButtons.forEach(function(button) {
+        button.classList.add('btn-success');
+        
+        button.classList.remove('btn-outline-secondary');
+    });
+}
+
+changeViewButtons();
