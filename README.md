@@ -10,8 +10,8 @@
 <details>
 Nombre d'élements : 21
 <br>
-Comment l'obtenir : <br>
-`document.getElementsByTagName("p")`
+Code : <br>
+document.getElementsByTagName("p")
 </details>
 
 ### Question 2
@@ -21,10 +21,10 @@ Comment l'obtenir : <br>
 #### Reponse
 
 <details>
-Element trouvé : 2. Historique et contexte (h2)
+Contenu : 2. Historique et contexte (h2)
 <br>
-Comment l'obtenir : <br>
-`document.getElementById('coucou')`
+Code : <br>
+document.getElementById('coucou')
 </details>
 
 ### Question 3
@@ -36,8 +36,7 @@ Comment l'obtenir : <br>
 <details>
 URL trouvée : https://openclassrooms.com/fr/courses/3306901-creez-des-pages-web-interactives-avec-javascript/3501871-decouvrez-le-dom
 <br>
-Comment l'obtenir : <br>
-`document.getElementsByTagName('a')[2]`
+Code : document.getElementsByTagName('a')[2]
 </details>
 
 ### Question 4
@@ -49,8 +48,8 @@ Comment l'obtenir : <br>
 <details>
 Nombre d'éléments : 10
 <br>
-Comment l'obtenir : <br>
-`document.getElementsByClassName('compte-moi')`
+Code : <br>
+document.getElementsByClassName('compte-moi')
 </details>
 
 ### Question 5
@@ -62,8 +61,8 @@ Comment l'obtenir : <br>
 <details>
 Nombre d'éléments : 6
 <br>
-Comment l'obtenir : <br>
-`document.querySelectorAll("li.compte-moi")`
+Code : <br>
+document.querySelectorAll("li.compte-moi")
 </details>
 
 ### Question 6
@@ -75,8 +74,8 @@ Combien d'éléments `<li>` et situés dans une liste ordonnée portent la class
 <details>
 Nombre d'éléments : 1
 
-Comment l'obtenir : <br>
-`document.querySelectorAll("ol li.compte-moi")`
+Code : <br>
+document.querySelectorAll("ol li.compte-moi")
 </details>
 
 ### Question 7
@@ -86,8 +85,8 @@ Comment l'obtenir : <br>
 #### Reponse
 
 <details>
-Comment l'obtenir : <br>
-`document.querySelector("div ul:nth-child(2) li").textContent`
+Code : <br>
+document.querySelector("div ul:nth-child(2) li").textContent
 </details>
 
 <hr>
