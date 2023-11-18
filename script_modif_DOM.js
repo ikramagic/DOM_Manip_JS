@@ -48,3 +48,20 @@ function deleteLastCards() {
 
 deleteLastCards();
 
+function changeCardsText() {
+    const newCardTexts = [
+        "L'HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web",
+        "Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML",
+        "JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs. C'est un langage orienté objet à prototype."
+    ];
+
+    const cards = document.querySelectorAll('.card');
+
+    if (cards.length >= 3) {
+        for (let i = 0; i < 3; i++) {
+            cards[i].querySelector('.card-text').textContent = newCardTexts[i];
+        }
+    }
+}
+
+changeCardsText();
