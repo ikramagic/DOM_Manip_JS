@@ -77,3 +77,24 @@ function changeViewButtons() {
 }
 
 changeViewButtons();
+
+//BONUS
+
+function updateBelowCardsText() {
+
+    const belowCardTexts = [
+        "Ruby est un langage de programmation interprété, orienté objet et généraliste. Il est souvent utilisé pour le développement web et est apprécié pour sa syntaxe élégante et sa simplicité.",
+        "Bootstrap est un framework CSS développé par Twitter. Il facilite la création de pages web responsives et attrayantes avec des composants préconçus et des styles prêts à l'emploi.",
+        "Le chat est un animal domestique populaire, souvent apprécié pour sa compagnie et ses comportements indépendants. Les chats sont également connus pour leur agilité et leur grâce."
+    ];
+
+    const belowCards = document.querySelectorAll('.card');
+
+    if (belowCards.length >= 3) {
+        for (let i = 3; i < 6; i++) {
+            belowCards[i].querySelector('.card-text').innerHTML = belowCardTexts[i - 3];
+        }
+    }
+}
+
+updateBelowCardsText();
