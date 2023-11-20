@@ -24,7 +24,6 @@ function changeLogoName() {
 changeLogoName();
 
 function populateImages() {
-    // Sélectionne toutes les balises img à l'intérieur des cards
     const cardImages = document.querySelectorAll('.card img');
 
     const imagesArray = ["https://img.icons8.com/color/480/000000/html-5.png", "https://img.icons8.com/color/480/000000/css3.png", "https://img.icons8.com/color/480/000000/javascript.png", "https://img.icons8.com/color/480/000000/ruby-programming-language.png", "https://img.icons8.com/color/480/000000/bootstrap.png", "https://img.icons8.com/color/480/000000/github.png", "https://rubyonrails.org/assets/images/opengraph.png", "https://avatars2.githubusercontent.com/u/25484553?s=200&v=4", "https://img.icons8.com/color/480/000000/heroku.png"];
@@ -78,7 +77,7 @@ function changeViewButtons() {
 
 changeViewButtons();
 
-//BONUS
+////////BONUS
 
 function updateBelowCardsText() {
 
